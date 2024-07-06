@@ -1,0 +1,232 @@
+(rand() % (pulsianRestorativesPDUpper - pulsianRestorativesPDLower + 1)) + pulsianRestorativesPDLower;
+(rand() % (pulsianRestorativesEEUpper - pulsianRestorativesEELower + 1)) + pulsianRestorativesEELower;
+
+(rand() % (archadianLuxuriesPIUpper - archadianLuxuriesPILower + 1)) + archadianLuxuriesPILower;
+
+(rand() % (cidsMagicalEscapadesGMUpper - cidsMagicalEscapadesGMLower + 1)) + cidsMagicalEscapadesGMLower;
+
+(rand() % (gaianGratitudesSCARUpper - gaianGratitudesSCARLower + 1)) + gaianGratitudesSCARLower;
+
+(rand() % (richesAndMineralsOfSpiraADAMUpper - richesAndMineralsOfSpiraADAMLower + 1)) + richesAndMineralsOfSpiraADAMLower;
+(rand() % (richesAndMineralsOfSpiraDMUpper - richesAndMineralsOfSpiraDMLower + 1)) + richesAndMineralsOfSpiraDMLower;
+
+(rand() % (tycoonMeteorsMineralsTRAPUpper - tycoonMeteorsMineralsTRAPLower + 1)) + tycoonMeteorsMineralsTRAPLower;
+
+phoenixDownPrice
+
+elixirEssencePrice
+
+platinumIngotPrice
+
+goldenMateriaPrice
+
+scarletitePrice
+
+adamantitePrice
+
+darkMatterPrice
+
+trapezohedronPrice
+
+======================
+
+pulsianRestorativesPDcost
+pulsianRestorativesEEcost
+
+archadianLuxuriesPIcost
+
+cidsMagicalEscapadesGMcost
+
+gaianGratitudesSCARcost
+
+richesAndMineralsOfSpiraADAMcost
+richesAndMineralsOfSpiraDMcost
+
+tycoonMeteorsMineralsTRAPcost
+
+
+/*===========================================================================================================================================*/
+	
+	/* Item shop price ranges */	 
+	
+	int phoenixDownPrice, phoenixDownPrice2, phoenixDownPriceLower, phoenixDownPriceUpper;
+	phoenixDownPriceLower = 500;
+	phoenixDownPriceUpper = 1200;
+	phoenixDownPrice = (rand() % (phoenixDownPriceUpper - phoenixDownPriceLower + 1)) + phoenixDownPriceLower;
+	phoenixDownPrice2 = (rand() % (phoenixDownPriceUpper - phoenixDownPriceLower + 1)) + phoenixDownPriceLower;
+	
+	int elixirEssencePrice, elixirEssencePrice2, elixirEssencePriceLower, elixirEssencePriceUpper;
+	elixirEssencePriceLower = 1500;
+	elixirEssencePriceUpper = 2000;
+	elixirEssencePrice =(rand() % (elixirEssencePriceUpper - elixirEssencePriceLower + 1)) + elixirEssencePriceLower;
+	elixirEssencePrice2 =(rand() % (elixirEssencePriceUpper - elixirEssencePriceLower + 1)) + elixirEssencePriceLower;
+
+	int platinumIngotPrice, platinumIngotPrice2, platinumIngotPriceLower, platinumIngotPriceUpper;
+	platinumIngotPriceLower = 5000;
+	platinumIngotPriceUpper = 7000;
+	platinumIngotPrice = (rand() % (platinumIngotPriceUpper - platinumIngotPriceLower + 1)) + platinumIngotPriceLower;
+	platinumIngotPrice2 = (rand() % (platinumIngotPriceUpper - platinumIngotPriceLower + 1)) + platinumIngotPriceLower;
+
+	int goldenMateriaPrice, goldenMateriaPrice2, goldenMateriaPriceLower, goldenMateriaPriceUpper;
+	goldenMateriaPriceLower = 3500;
+	goldenMateriaPriceUpper = 5500;
+	goldenMateriaPrice = (rand() % (goldenMateriaPriceUpper - goldenMateriaPriceLower + 1)) + goldenMateriaPriceLower;
+	goldenMateriaPrice2 = (rand() % (goldenMateriaPriceUpper - goldenMateriaPriceLower + 1)) + goldenMateriaPriceLower;
+
+
+	int scarletitePrice, scarletitePrice2, scarletitePriceLower, scarletitePriceUpper;
+	scarletitePriceLower = 8000;
+	scarletitePriceUpper = 12000;
+	scarletitePrice = (rand() % (scarletitePriceUpper - scarletitePriceLower + 1)) + scarletitePriceLower;
+	scarletitePrice2 = (rand() % (scarletitePriceUpper - scarletitePriceLower + 1)) + scarletitePriceLower;
+
+	int adamantitePrice, adamantitePrice2, adamantitePriceLower, adamantitePriceUpper;
+	adamantitePriceLower = 15000;
+	adamantitePriceUpper = 30000;
+	adamantitePrice = (rand() % (adamantitePriceUpper - adamantitePriceLower + 1)) + adamantitePriceLower;
+	adamantitePrice2 = (rand() % (adamantitePriceUpper - adamantitePriceLower + 1)) + adamantitePriceLower;
+
+	int darkMatterPrice, darkMatterPrice2, darkMatterPriceLower, darkMatterPriceUpper;
+	darkMatterPriceLower = 40000;
+	darkMatterPriceUpper = 70000;
+	darkMatterPrice = (rand() % (darkMatterPriceUpper - darkMatterPriceLower + 1)) + darkMatterPriceLower;
+	darkMatterPrice2 = (rand() % (darkMatterPriceUpper - darkMatterPriceLower + 1)) + darkMatterPriceLower;
+
+	int trapezohedronPrice, trapezohedronPrice2, trapezohedronPriceLower, trapezohedronPriceUpper;
+	trapezohedronPriceLower = 60000;
+	trapezohedronPriceUpper = 90000;
+	trapezohedronPrice = (rand() % (trapezohedronPriceUpper - trapezohedronPriceLower + 1)) + trapezohedronPriceLower;
+	trapezohedronPrice2 = (rand() % (trapezohedronPriceUpper - trapezohedronPriceLower + 1)) + trapezohedronPriceLower;
+	/***********************************Shop specialities*/
+	
+	int pulsianRestorativesPDcost, pulsianRestorativesPDcost2, pulsianRestorativesPDLower, pulsianRestorativesPDUpper;
+	pulsianRestorativesPDLower = 300;
+	pulsianRestorativesPDUpper = 800;
+	pulsianRestorativesPDcost = (rand() % (pulsianRestorativesPDUpper - pulsianRestorativesPDLower + 1)) + pulsianRestorativesPDLower;
+	pulsianRestorativesPDcost2 = (rand() % (pulsianRestorativesPDUpper - pulsianRestorativesPDLower + 1)) + pulsianRestorativesPDLower;
+
+	int pulsianRestorativesEEcost, pulsianRestorativesEEcost2, pulsianRestorativesEELower, pulsianRestorativesEEUpper;
+	pulsianRestorativesEELower = 1000;
+	pulsianRestorativesEEUpper = 1700;
+	pulsianRestorativesEEcost = (rand() % (pulsianRestorativesEEUpper - pulsianRestorativesEELower + 1)) + pulsianRestorativesEELower;
+	pulsianRestorativesEEcost2 = (rand() % (pulsianRestorativesEEUpper - pulsianRestorativesEELower + 1)) + pulsianRestorativesEELower;
+
+	int archadianLuxuriesPIcost, archadianLuxuriesPIcost2, archadianLuxuriesPILower, archadianLuxuriesPIUpper;
+	archadianLuxuriesPILower = 4500;
+	archadianLuxuriesPIUpper = 6000;
+	archadianLuxuriesPIcost = (rand() % (archadianLuxuriesPIUpper - archadianLuxuriesPILower + 1)) + archadianLuxuriesPILower;
+	archadianLuxuriesPIcost2 = (rand() % (archadianLuxuriesPIUpper - archadianLuxuriesPILower + 1)) + archadianLuxuriesPILower;
+
+	
+	int cidsMagicalEscapadesGMcost, cidsMagicalEscapadesGMcost2, cidsMagicalEscapadesGMLower, cidsMagicalEscapadesGMUpper;
+	cidsMagicalEscapadesGMLower = 3000;
+	cidsMagicalEscapadesGMUpper = 5000;
+	cidsMagicalEscapadesGMcost = (rand() % (cidsMagicalEscapadesGMUpper - cidsMagicalEscapadesGMLower + 1)) + cidsMagicalEscapadesGMLower;
+	cidsMagicalEscapadesGMcost2 = (rand() % (cidsMagicalEscapadesGMUpper - cidsMagicalEscapadesGMLower + 1)) + cidsMagicalEscapadesGMLower;
+
+	int gaianGratitudesSCARcost, gaianGratitudesSCARcost2, gaianGratitudesSCARLower, gaianGratitudesSCARUpper;
+	gaianGratitudesSCARLower = 5000;
+	gaianGratitudesSCARUpper = 10000;
+	gaianGratitudesSCARcost = (rand() % (gaianGratitudesSCARUpper - gaianGratitudesSCARLower + 1)) + gaianGratitudesSCARLower;
+	gaianGratitudesSCARcost2 = (rand() % (gaianGratitudesSCARUpper - gaianGratitudesSCARLower + 1)) + gaianGratitudesSCARLower;
+
+	int richesAndMineralsOfSpiraADAMcost, richesAndMineralsOfSpiraADAMcost2, richesAndMineralsOfSpiraADAMLower, richesAndMineralsOfSpiraADAMUpper;
+	richesAndMineralsOfSpiraADAMLower = 9500;
+	richesAndMineralsOfSpiraADAMUpper = 20000;
+	richesAndMineralsOfSpiraADAMcost = (rand() % (richesAndMineralsOfSpiraADAMUpper - richesAndMineralsOfSpiraADAMLower + 1)) + richesAndMineralsOfSpiraADAMLower;
+	richesAndMineralsOfSpiraADAMcost2 = (rand() % (richesAndMineralsOfSpiraADAMUpper - richesAndMineralsOfSpiraADAMLower + 1)) + richesAndMineralsOfSpiraADAMLower;
+
+	int richesAndMineralsOfSpiraDMcost, richesAndMineralsOfSpiraDMcost2, richesAndMineralsOfSpiraDMLower, richesAndMineralsOfSpiraDMUpper;
+	richesAndMineralsOfSpiraDMLower = 22000;
+	richesAndMineralsOfSpiraDMUpper = 50000;
+	richesAndMineralsOfSpiraDMcost = (rand() % (richesAndMineralsOfSpiraDMUpper - richesAndMineralsOfSpiraDMLower + 1)) + richesAndMineralsOfSpiraDMLower;
+	richesAndMineralsOfSpiraDMcost2 = (rand() % (richesAndMineralsOfSpiraDMUpper - richesAndMineralsOfSpiraDMLower + 1)) + richesAndMineralsOfSpiraDMLower;
+
+	int tycoonMeteorsMineralsTRAPcost, tycoonMeteorsMineralsTRAPcost2, tycoonMeteorsMineralsTRAPLower, tycoonMeteorsMineralsTRAPUpper;
+	tycoonMeteorsMineralsTRAPLower = 35000;
+	tycoonMeteorsMineralsTRAPUpper =  65000;
+	tycoonMeteorsMineralsTRAPcost = (rand() % (tycoonMeteorsMineralsTRAPUpper - tycoonMeteorsMineralsTRAPLower + 1)) + tycoonMeteorsMineralsTRAPLower;
+	tycoonMeteorsMineralsTRAPcost2 = (rand() % (tycoonMeteorsMineralsTRAPUpper - tycoonMeteorsMineralsTRAPLower + 1)) + tycoonMeteorsMineralsTRAPLower;
+
+	/*===========================================================================================================================================*/
+
+
+
+
+
+while (shopChoice1 == 'L' && *dC <= 30)
+
+printf("\nEND OF THE GAME\n");
+	                printf("\nTotal Gil Earned: %d G\n", *gC);
+	                printf("Debt Remaining: %d G\n", *gD);
+	                printf("Total Profit: %d G\n", *gC - *gD);
+	                
+	                if (*gC - *gD > 0)
+	                {
+	                	printf("\nMerchant of the Rift: Congrats on your profit earned. YOU HAVE WON THE GAME!\n");
+					}
+					else
+					{
+						printf("\nMerchant of the Rift: REALLY? YOU COULDN'T EVEN EARN ENOUGH TO BUY AN EXCALIPOOR!");
+					}
+	                return 0;
+
+
+
+printf("\n[B]uy  [S]ell  [L]eave                    [Q]uit\n");
+
+
+
+if (shopChoice1 == 'Q')
+	           		{
+	           			return 0;
+					}
+
+
+
+                   [Q]uit
+
+
+
+
+
+                   Type 0 to Quit the game
+
+
+
+
+
+
+
+
+
+
+
+printf("\n[B]uy  [S]ell  [L]eave                    [Q]uit\n");
+	
+	                                    printf("\nOption: ");	
+	                                    scanf(" %c", &shopChoice1);
+	                                    
+	                                    if (shopChoice1 == 'Q')
+						           		{
+						           			return 0;
+										}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
